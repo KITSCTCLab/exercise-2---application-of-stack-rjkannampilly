@@ -57,7 +57,7 @@ class Evaluate:
       elif i=='^':
           stack[-2]=stack[-2] ^ stack[-1]
           stack.pop()
-     return int(stack[-1])
+    return int(stack[-1])
     
 
 
